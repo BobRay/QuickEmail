@@ -1,5 +1,5 @@
 --------------------
-Snippet: FormIt
+Snippet: QuickEmail
 --------------------
 Author: Bob Ray <http://bobsguides.com>
 
