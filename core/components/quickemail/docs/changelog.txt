@@ -1,7 +1,12 @@
 Changelog for QuickEmail.
+QuickEmail 1.0.1
+================
+ - Added build
+ - Updated readme
 
-FormIt 1.0.1
-====================================
+
+QuickEmail 1.0.0
+================
 - Initial commit
 
 
