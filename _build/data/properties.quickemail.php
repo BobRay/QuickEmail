@@ -91,7 +91,7 @@ $properties = array(
     ),
     array(
         'name' => 'smtpErrorHeader',
-        'desc' => 'prop_quickemail.smtpEerrorHeader_desc',
+        'desc' => 'prop_quickemail.smtpErrorHeader_desc',
         'type' => 'textfield',
         'options' => '',
         'value' => '<h3>Server Debug Information:</h3>',
@@ -129,38 +129,7 @@ $properties = array(
         'value' => '',
         'lexicon' => 'quickemail:properties',
     ),
-    array(
-        'name' => 'DateField',
-        'desc' => '',
-        'type' => 'datefield',
-        'options' => '',
-        'value' => '2010/12/3',
-        'lexicon' => '',
-    ),
-    array(
-        'name' => 'List',
-        'desc' => '',
-        'type' => 'list',
-        'options' => array(
-            array(
-                'name' => 'Option1',
-                'value' => 'Value1',
-                'menu' => '',
-            ),
-            array(
-                'name' => 'Option2',
-                'value' => 'Value2',
-                'menu' => '',
-            ),
-            array(
-                'name' => 'Option3',
-                'value' => 'Value3',
-                'menu' => '',
-            ),
-        ),
-        'value' => 'Value1',
-        'lexicon' => '',
-    ),
+    
 );
 
 return $properties;

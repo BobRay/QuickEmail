@@ -30,7 +30,8 @@
 $_lang['prop_quickemail.message_desc'] = 'Message for the email body; default: `Default Message`.';
 $_lang['prop_quickemail.subject_desc'] = 'Subject for the email message; default: `Default Subject`.';
 $_lang['prop_quickemail.to_desc'] = 'Address the email message will be sent to; default: emailsender System Setting.';
-$_lang['prop_quickemail.fromName_desc'] = 'Value for message fromName; default: site_name System Setting.';
+$_lang['prop_quickemail.toName_desc'] = 'Value for message toName; default; emailsender System Setting.';
+$_lang['prop_quickemail.fromName_desc'] = 'Value for message fromName; default; site_name System Setting.';
 $_lang['prop_quickemail.emailSender_desc'] = 'Email address for from field of email; default: emailsender System Setting.';
 $_lang['prop_quickemail.replyTo_desc'] = 'Value for replyTo field for email; default: emailsender System Setting.';
 $_lang['prop_quickemail.debug_desc'] = 'Turn on debugging (still attempts to send email); default: no';
@@ -40,7 +41,7 @@ $_lang['prop_quickemail.hideOutput_desc'] = 'Stifle all output from the snippet;
 $_lang['prop_quickemail.success_desc'] = 'Message to display when send is successful';
 $_lang['prop_quickemail.failure_desc'] = 'Message to display when send is successful';
 $_lang['prop_quickemail.errorHeader_desc'] = 'Header for mail error message';
-$_lang['prop_quickemail.smtpEerrorHeader_desc'] = 'Header for smtp server error messages section';
+$_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header for smtp server error messages section';
 
 
 
