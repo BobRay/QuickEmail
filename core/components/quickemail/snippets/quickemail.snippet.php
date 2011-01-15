@@ -2,7 +2,10 @@
 /**
  * QuickEmail
  *
- * Copyright 2010 by Bob Ray <http://bobsguides.com>
+ * Copyright 2011 Bob Ray
+ *
+ * @author Bob Ray
+ * @date 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -14,15 +17,33 @@
  * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License along with
- * QuickEmail; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
- * Suite 330, Boston, MA 02111-1307 USA
+ * QuickEmail; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
  *
- * @package quickemail
+ * @package quickEmail
  */
 /**
- * QuickEmail - A simple email snippet for MODx Revolution
+ * MODx QuickEmail Snippet
+ * @description A quick email sending and diagnostic snippet for MODx Revolution
+ * @package quickEmail
  *
- * @package quickemail
+ *
+ *
+ * @property message - Message for the email body; default: `Default Message`.
+ * @property subject - Subject for the email message; default: `Default Subject`.
+ * @property to - Address the email message will be sent to; default: emailsender System Setting.
+ * @property toName - Value for message toName; default; emailsender System Setting.
+ * @property fromName - Value for message fromName; default; site_name System Setting.
+ * @property emailSender - Email address for from field of email; default: emailsender System Setting.
+ * @property replyTo - Value for replyTo field for email; default: emailsender System Setting.
+ * @property debug - Turn on debugging (still attempts to send email); default: no
+ * @property html - Allow HTML in message; default: yes
+ * @property msgTpl - If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.
+ * @property hideOutput - Stifle all output from the snippet; ignored if debug is set; default: No
+ * @property success - Message to display when send is successful
+ * @property failure - Message to display when send is successful
+ * @property errorHeader - Header for mail error message
+ * @property smtpErrorHeader - Header for smtp server error messages section
  */
 
 /* save some typing */

@@ -1,8 +1,14 @@
 <?php
 /**
- * @package newspublisher
+ * Snippet object array for QuickEmail package
+ * @author Bob Ray
+ * @date 1/15/11
+ * @file transport.snippets.php
+ *
+ * @package quickemail
  * @subpackage build
  */
+
 
 function getSnippetContent($filename) {
     $o = file_get_contents($filename);

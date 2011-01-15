@@ -23,7 +23,7 @@
  * Properties Lexicon Topic
  *
  * @package quickemail
- * @subpackge lexicon
+ * @subpackage lexicon
  * @language en
  */
 /* QuickEmail properties */

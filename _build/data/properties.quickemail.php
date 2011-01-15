@@ -1,12 +1,15 @@
 <?php
 
-
 /**
- * Properties for QuickEmail
+ * Default properties for the QuickEmail snippet
+ * @author Bob Ray
+ * @date 1/15/11
+ * @file properties.quickemail.php
  *
  * @package quickemail
  * @subpackage build
  */
+
 
 $properties = array(
     array(

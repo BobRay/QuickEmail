@@ -1,31 +1,35 @@
 <?php
 /**
- * quickemail
+ * QuickEmail
  *
- * Copyright 2010 by Jason Coward <jason@modxcms.com> and Shaun McCormick
- * <shaun@modxcms.com>
+ * Copyright 2011 Bob Ray
+ * @file build.transport.php
+ * @author Bob Ray <http://bobsguides.com>
+ * @date 1/15/11
  *
- * quickemail is free software; you can redistribute it and/or modify it
+ * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
  * Software Foundation; either version 2 of the License, or (at your option) any
  * later version.
  *
- * quickemail is distributed in the hope that it will be useful, but WITHOUT ANY
+ * QuickEmail is distributed in the hope that it will be useful, but WITHOUT ANY
  * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
  * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License along with
- * quickemail; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * QuickEmail; if not, write to the Free Software Foundation, Inc., 59 Temple
  * Place, Suite 330, Boston, MA 02111-1307 USA
  *
  * @package quickemail
  */
 /**
- * Build quickemail Package
- *
- * @package quickemail
+* @package quickemail
+ * @description build file for QuickEmail package
+ * @package quickEmail
  * @subpackage build
  */
+
+
 $mtime = microtime();
 $mtime = explode(" ", $mtime);
 $mtime = $mtime[1] + $mtime[0];
