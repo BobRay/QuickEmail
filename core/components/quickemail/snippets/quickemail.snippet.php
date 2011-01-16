@@ -26,25 +26,23 @@
  * MODx QuickEmail Snippet
  * @description A quick email sending and diagnostic snippet for MODx Revolution
  * @package quickEmail
- * @version 1.0.1
+ * @version 1.0.2
  *
- *
- *
- * @property message - Message for the email body; default: `Default Message`.
- * @property subject - Subject for the email message; default: `Default Subject`.
- * @property to - Address the email message will be sent to; default: emailsender System Setting.
- * @property toName - Value for message toName; default; emailsender System Setting.
- * @property fromName - Value for message fromName; default; site_name System Setting.
- * @property emailSender - Email address for from field of email; default: emailsender System Setting.
- * @property replyTo - Value for replyTo field for email; default: emailsender System Setting.
- * @property debug - Turn on debugging (still attempts to send email); default: no
- * @property html - Allow HTML in message; default: yes
- * @property msgTpl - If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.
- * @property hideOutput - Stifle all output from the snippet; ignored if debug is set; default: No
- * @property success - Message to display when send is successful
- * @property failure - Message to display when send is successful
- * @property errorHeader - Header for mail error message
- * @property smtpErrorHeader - Header for smtp server error messages section
+ * @property string message - Message for the email body; default: `Default Message`.
+ * @property string subject - Subject for the email message; default: `Default Subject`.
+ * @property string to - Address the email message will be sent to; default: emailsender System Setting.
+ * @property string toName - Value for message toName; default; emailsender System Setting.
+ * @property string fromName - Value for message fromName; default; site_name System Setting.
+ * @property string emailSender - Email address for from field of email; default: emailsender System Setting.
+ * @property string replyTo - Value for replyTo field for email; default: emailsender System Setting.
+ * @property boolean debug - Turn on debugging (still attempts to send email); default: no
+ * @property boolean html - Allow HTML in message; default: yes
+ * @property string msgTpl - If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.
+ * @property boolean hideOutput - Stifle all output from the snippet; ignored if debug is set; default: No
+ * @property string success - Message to display when send is successful
+ * @property string failure - Message to display when send is successful
+ * @property string errorHeader - Header for mail error message
+ * @property string smtpErrorHeader - Header for smtp server error messages section
  */
 
 /* save some typing */
