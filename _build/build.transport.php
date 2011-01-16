@@ -3,9 +3,8 @@
  * QuickEmail
  *
  * Copyright 2011 Bob Ray
- * @file build.transport.php
  * @author Bob Ray <http://bobsguides.com>
- * @date 1/15/11
+ * 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -23,8 +22,8 @@
  * @package quickemail
  */
 /**
-* @package quickemail
- * @description build file for QuickEmail package
+ * @package quickemail
+ * Description: build file for QuickEmail package
  * @package quickEmail
  * @subpackage build
  */

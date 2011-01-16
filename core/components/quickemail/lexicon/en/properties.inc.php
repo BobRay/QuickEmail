@@ -3,6 +3,7 @@
  * QuickEmail
  *
  * Copyright 2010 by Bob Ray <http://bobsguides.com>
+ * 1/16/2011
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -18,6 +19,7 @@
  * Suite 330, Boston, MA 02111-1307 USA
  *
  * @package quickemail
+ * @subpackage lexicon
  */
 /**
  * Properties Lexicon Topic
