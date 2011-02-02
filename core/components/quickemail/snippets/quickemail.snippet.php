@@ -25,8 +25,8 @@
 /**
  * MODx QuickEmail Snippet
  * @description A quick email sending and diagnostic snippet for MODx Revolution
- * @package quickEmail
- * @version 1.0.2
+ * @package quickemail
+ * @version 1.0.3
  *
  * @property string message - Message for the email body; default: `Default Message`.
  * @property string subject - Subject for the email message; default: `Default Subject`.
