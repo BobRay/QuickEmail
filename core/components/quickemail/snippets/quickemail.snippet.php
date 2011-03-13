@@ -26,7 +26,7 @@
  * MODx QuickEmail Snippet
  * @description A quick email sending and diagnostic snippet for MODx Revolution
  * @package quickemail
- * @version 1.0.3
+ * @version 1.0.4
  *
  * @property string message - Message for the email body; default: `Default Message`.
  * @property string subject - Subject for the email message; default: `Default Subject`.
@@ -35,10 +35,10 @@
  * @property string fromName - Value for message fromName; default; site_name System Setting.
  * @property string emailSender - Email address for from field of email; default: emailsender System Setting.
  * @property string replyTo - Value for replyTo field for email; default: emailsender System Setting.
- * @property boolean debug - Turn on debugging (still attempts to send email); default: no
- * @property boolean html - Allow HTML in message; default: yes
+ * @property boolean debug - Turn on debugging (still attempts to send email); default: `0`
+ * @property boolean html - Allow HTML in message; default: `1`
  * @property string msgTpl - If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.
- * @property boolean hideOutput - Stifle all output from the snippet; ignored if debug is set; default: No
+ * @property boolean hideOutput - Stifle all output from the snippet; ignored if debug is set; default: `0`
  * @property string success - Message to display when send is successful
  * @property string failure - Message to display when send is successful
  * @property string errorHeader - Header for mail error message
@@ -54,7 +54,9 @@ $modx->getService('mail', 'mail.modPHPMailer');
 /* set default values */
 $output = '';
 $debug = $modx->getOption('debug',$sp,false);
-$debug = stristr('no',$modx->getOption('debug',$sp,false))? false : $debug;
+if (is_string($debug) && strlen($debug) > 1) {
+    $debug = stristr('no',$debug)? false : true;
+}
 $tpl = $modx->getOption('msgTpl',$scriptProperties,false);
 $message = $modx->getOption('message',$sp,false);
 $message = empty($message)? 'Default Message' : $message;
@@ -71,9 +73,13 @@ $emailSender = empty($emailSender) ? $modx->getOption('emailsender',null,false):
 $replyTo = $modx->getOption('replyTo',$sp);
 $replyTo = $modx->getOption('emailsender');
 $html = $modx->getOption('allowHtml',$sp,false);
-$html = stristr('no',$modx->getOption('allowHtml',$sp,false))? false : $html;
+if (is_string($html) && strlen($html) > 1) {
+    $html = stristr('no',$html)? false : true;
+}
 $hideOutput = $modx->getOption('hideOutput',$sp,false);
-$hideOutput = stristr('yes',$modx->getOption('hideOutput',$sp,false))? true : $hideOutput;
+if (is_string($hideOutput) && strlen($hideOutput) > 1) {
+    $hideOutput = stristr('yes',$hideOutput)? true : false;
+}
 $failureMessage = $modx->getOption('failureMessage',$sp,false);
 $successMessage = $modx->getOption('successMessage',$sp,false);
 $errorHeader = $modx->getOption('errorHeader',$sp,false);

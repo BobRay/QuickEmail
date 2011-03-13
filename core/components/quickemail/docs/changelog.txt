@@ -1,9 +1,16 @@
 Changelog for QuickEmail.
 
+QuickEmail 1.0.4
+================
+ - Fixed bug with stristr() when setting defaults
+
 QuickEmail 1.0.3
+================
  - Fixed bug in transport package
  - Added tutorial to docs
+
 QuickEmail 1.0.2
+================
  - Updated PhpDoc comments
  - Made snippet uncached in docs
 

@@ -57,8 +57,8 @@ $modx->setLogTarget(XPDO_CLI_MODE ? 'ECHO' : 'HTML');
 
 /* set package info */
 define('PKG_NAME','quickemail');
-define('PKG_VERSION','1.0.3');
-define('PKG_RELEASE','beta1');
+define('PKG_VERSION','1.0.4');
+define('PKG_RELEASE','rc1');
 
 /* load builder */
 $modx->loadClass('transport.modPackageBuilder','',false, true);
