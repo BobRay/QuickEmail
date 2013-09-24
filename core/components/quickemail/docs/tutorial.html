@@ -1,9 +1,9 @@
 <p>
-This snippet is for use with MODx Revolution. QuickEmail can be used to send email from inside another snippet, but its primary use is to see if your email is working, and if not, to help diagnose and solve email problems. 
+This snippet is for use with MODX Revolution. QuickEmail can be used to send email from inside another snippet, but its primary use is to see if your email is working, and if not, to help diagnose and solve email problems.
 </p>
-<h3>Installing QuickEmail for MODx Revolution</h3>
+<h3>Installing QuickEmail for MODX Revolution</h3>
 <p>
-Go to System | Package Management on the main menu in the MODx Manager and click on the "Download Extras" button. That will take you to the Revolution Repository (AKA Web Transport Facility). Put QuickEmail in the search box and press Enter. Click on the "Download" button, and when it changes to "Downloaded," click on the "Finish" button. That should bring you back to your Package Management grid. Right click on QuickEmail and select "Install Package." The QuickEmail snippet should now be installed.</p>
+Go to System | Package Management on the main menu in the MODX Manager and click on the "Download Extras" button. That will take you to the Revolution Repository (AKA Web Transport Facility). Put QuickEmail in the search box and press Enter. Click on the "Download" button, and when it changes to "Downloaded," click on the "Finish" button. That should bring you back to your Package Management grid. Right click on QuickEmail and select "Install Package." The QuickEmail snippet should now be installed.</p>
 
 <h3>Using QuickEmail</h3>
 <p>
@@ -15,7 +15,7 @@ This couldn't be much simpler. Create a document in the Manager and put the foll
 
 
 <p>
-When you preview the document, you should receive an email at the address you specified when you installed MODx. You can go to System | System Settings the top menu and put emailsender
+When you preview the document, you should receive an email at the address you specified when you installed MODX. You can go to System | System Settings the top menu and put emailsender
  in the search filter to check that address. If you don't receive an email, Change the snippet tag to look like this:
 </p>
 
@@ -30,7 +30,7 @@ Try previewing the document again and look for an error message near the bottom 
 <p>
 <h3>Diagnosing Email Problems</h3>
 <p>If you see a message that says, "Could not instantiate mail function," it usually means that either your host has the mail() function turned off (many do) or that you 
-are using a localhost install and there is no working mail server. In that case, one option is to use the MODx SMTP Systems Settings so that MODx will send the mail from an 
+are using a localhost install and there is no working mail server. In that case, one option is to use the MODX SMTP Systems Settings so that MODX will send the mail from an
 SMTP server (e.g., Gmail) where you have an account.</p>
 
 <p>Go to System | System Settings and type SMTP in the search filter, then click on the grid. Set the SMTP settings to the appropriate values for your SMTP account. The following settings will work for Gmail:</p>
@@ -53,8 +53,8 @@ Once you have set the SMTP settings, try previewing your page again. If there ar
 
 <h3>Sending Email From Inside Another Snippet</h3>
 <p>
-You can use the following code to send email from inside another snippet, although it is just as easy to use the MODx mailer. The MODx mailer is also more efficient, 
-because QuickEmail will do a bunch of processing and then call the MODx mailer. Don't try any of the code below until you've made sure your mail system is working using the method described above.
+You can use the following code to send email from inside another snippet, although it is just as easy to use the MODX mailer. The MODX mailer is also more efficient,
+because QuickEmail will do a bunch of processing and then call the MODX mailer. Don't try any of the code below until you've made sure your mail system is working using the method described above.
 </p>
 <pre><fixedpre>
 $props = array(
@@ -86,8 +86,8 @@ All of the properties are optional and have reasonable defaults so try
  just setting 'message', 'subject', and 'to', and see what you get.
 </p>
 
-<h3>Using The MODx Mailer to send email</h3>
-<p>Since I mentioned it above, here is how you send email using the MODx built-in email function:</p>
+<h3>Using The MODX Mailer to send email</h3>
+<p>Since I mentioned it above, here is how you send email using the MODX built-in email function:</p>
 <pre><fixedpre>
 $modx->getService('mail', 'mail.modPHPMailer');
 $modx->mail->set(modMail::MAIL_BODY, 'Some message');
