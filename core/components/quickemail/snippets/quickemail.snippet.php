@@ -174,5 +174,5 @@ if ($sent) {
 
 
 }
-$output = $hideOutput && (! $debug )? '' : $output;
+$output = $hideOutput && (! $debug )? '' : $output . "<br /><br />";
 return $output;
