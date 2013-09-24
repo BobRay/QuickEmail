@@ -27,7 +27,10 @@
  * @description A quick email sending and diagnostic snippet for MODx Revolution
  * @package quickemail
  * @version 1.0.4
- *
+
+ * @var $modx modX
+ * @var $scriptProperties array
+ * 
  * @property string message - Message for the email body; default: `Default Message`.
  * @property string subject - Subject for the email message; default: `Default Subject`.
  * @property string to - Address the email message will be sent to; default: emailsender System Setting.
@@ -45,6 +48,10 @@
  * @property string smtpErrorHeader - Header for smtp server error messages section
  */
 
+/* Bail if the user is not logged in to the Manager -- prevents bots
+   from triggering emails */
+
+if (! $modx->user->hasSessionContext('mgr')) return 'Unauthorized';
 /* save some typing */
 $sp = $scriptProperties;
 
