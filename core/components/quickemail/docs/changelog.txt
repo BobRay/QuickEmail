@@ -1,14 +1,12 @@
 Changelog for QuickEmail.
 
-QuickEmail 1.0.4
-================
+QuickEmail 1.1.0-pl
+===================
 Bail if user not logged in to manager
 Fix bug with message Tpl name
 Tweak output format
 Stop E_NOTICE warnings in build
 Fix bug with fromName
-
-
 
 QuickEmail 1.0.4
 ================
