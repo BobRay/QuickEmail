@@ -30,7 +30,7 @@
 
  * @var $modx modX
  * @var $scriptProperties array
- * 
+ *
  * @property string message - Message for the email body; default: `Default Message`.
  * @property string subject - Subject for the email message; default: `Default Subject`.
  * @property string to - Address the email message will be sent to; default: emailsender System Setting.
@@ -92,7 +92,7 @@ $successMessage = $modx->getOption('successMessage',$sp,false);
 $errorHeader = $modx->getOption('errorHeader',$sp,false);
 
 if (! empty ($tpl) ) {
-    $msg = $modx->getChunk($msgTpl);
+    $msg = $modx->getChunk($tpl);
     if (empty($msg) && $debug) {
         $output .= '<br />Error: Cannot find Tpl chunk: ' . $tpl;
     }
