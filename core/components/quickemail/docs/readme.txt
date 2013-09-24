@@ -3,7 +3,7 @@ Snippet: QuickEmail
 --------------------
 Author: Bob Ray <http://bobsguides.com>
 
-A simple snippet for sending email and diagnosing email problems for MODx Revolution.
+A simple snippet for sending email and diagnosing email problems for MODX Revolution.
 
 Documentation:
 http://bobsguides.com/quickemail-snippet-tutorial.html

@@ -23,8 +23,8 @@
  * @package quickEmail
  */
 /**
- * MODx QuickEmail Snippet
- * @description A quick email sending and diagnostic snippet for MODx Revolution
+ * MODX QuickEmail Snippet
+ * @description A quick email sending and diagnostic snippet for MODX Revolution
  * @package quickemail
  * @version 1.0.4
 
@@ -55,7 +55,7 @@ if (! $modx->user->hasSessionContext('mgr')) return 'Unauthorized';
 /* save some typing */
 $sp = $scriptProperties;
 
-/* get the MODx mailer object */
+/* get the MODX mailer object */
 $modx->getService('mail', 'mail.modPHPMailer');
 
 /* set default values */

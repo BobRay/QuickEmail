@@ -1,4 +1,4 @@
-QuickEmail Extra for MODx Revolution
+QuickEmail Extra for MODX Revolution
 =======================================
 
 **Author:** Bob Ray [Bob's Guides](http://bobsguides.com)
