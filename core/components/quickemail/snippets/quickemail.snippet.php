@@ -78,7 +78,7 @@ $fromName = empty($fromName)? 'QuickEmail' : $fromName;
 $emailSender = $modx->getOption('emailSender',$sp);
 $emailSender = empty($emailSender) ? $modx->getOption('emailsender',null,false): $emailSender;
 $replyTo = $modx->getOption('replyTo',$sp);
-$replyTo = $modx->getOption('emailsender');
+$replyTo = empty($replyTo)? $modx->getOption('emailsender'): $replyTo;
 $html = $modx->getOption('allowHtml',$sp,false);
 if (is_string($html) && strlen($html) > 1) {
     $html = stristr('no',$html)? false : true;
