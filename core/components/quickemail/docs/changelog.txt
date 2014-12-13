@@ -1,5 +1,9 @@
 Changelog for QuickEmail.
 
+QuickEmail 1.1.1-pl
+===================
+Fix bug with replyTo property
+
 QuickEmail 1.1.0-pl
 ===================
 Bail if user not logged in to manager
