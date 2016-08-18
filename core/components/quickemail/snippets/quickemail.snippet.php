@@ -2,7 +2,7 @@
 /**
  * QuickEmail
  *
- * Copyright 2011-2013 Bob Ray
+ * Copyright 2011-2016 Bob Ray
  *
  * @author Bob Ray
  * @date 1/15/11
@@ -79,6 +79,8 @@ $emailSender = $modx->getOption('emailSender',$sp);
 $emailSender = empty($emailSender) ? $modx->getOption('emailsender',null,false): $emailSender;
 $replyTo = $modx->getOption('replyTo',$sp);
 $replyTo = empty($replyTo)? $modx->getOption('emailsender'): $replyTo;
+$cc = $modx->getOption('cc', $sp, '');
+$bcc = $modx->getOption('bcc', $sp, '');
 $html = $modx->getOption('allowHtml',$sp,false);
 if (is_string($html) && strlen($html) > 1) {
     $html = stristr('no',$html)? false : true;
@@ -138,6 +140,14 @@ $modx->mail->set(modMail::MAIL_SENDER, $emailSender);
 $modx->mail->set(modMail::MAIL_SUBJECT, $subject);
 $modx->mail->address('to', $to, $toName);
 $modx->mail->address('reply-to', $replyTo);
+if (! empty ($cc))  {
+    $modx->mail->address('cc', $cc);
+}
+
+if (!empty ($bcc)) {
+    $modx->mail->address('bcc', $bcc);
+}
+
 $modx->mail->setHTML($html);
 if ($debug) {
     ob_start();
