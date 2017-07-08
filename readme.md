@@ -1,7 +1,13 @@
 QuickEmail Extra for MODX Revolution
 =======================================
 
-**Author:** Bob Ray [Bob's Guides](http://bobsguides.com)
+**Author:** Bob Ray [Bob's Guides](https://bobsguides.com)
+
+**Documentation:** [QuickEmail Docs](https://bobsguides.com/quickemail-snippet-tutorial.html)
+
+**Bugs and Requests:** [QuickEmail Issues](https://github.com/BobRay/QuickEmail/issues)
+
+**Questions about using QuickEmail** [MODX Forums](https://forums.modx.com)
 
 
 QuickEmail is a simple email snippet. It can be used to

@@ -2,8 +2,8 @@
 /**
  * QuickEmail
  *
- * Copyright 2011 Bob Ray
- * @author Bob Ray <http://bobsguides.com>
+ * Copyright 2011-2017 Bob Ray
+ * @author Bob Ray <https://bobsguides.com>
  * 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
@@ -47,7 +47,7 @@ $sources= array (
 );
 unset($root);
 
-/* instantiate MODx */
+/* instantiate MODX */
 require_once $sources['build'].'build.config.php';
 require_once MODX_CORE_PATH . 'model/modx/modx.class.php';
 $modx= new modX();

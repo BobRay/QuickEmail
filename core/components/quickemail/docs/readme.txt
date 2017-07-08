@@ -1,12 +1,13 @@
 --------------------
 Snippet: QuickEmail
 --------------------
-Author: Bob Ray <http://bobsguides.com>
+Author: Bob Ray <https://bobsguides.com>
+Copyright 2011-2017 Bob Ray
 
 A simple snippet for sending email and diagnosing email problems for MODX Revolution.
 
 Documentation:
-http://bobsguides.com/quickemail-snippet-tutorial.html
+https://bobsguides.com/quickemail-snippet-tutorial.html
 
 Also: Edit the QuickEmail snippet and click on the Properties tab.
       Click on the plus sign next to any property to see its description.

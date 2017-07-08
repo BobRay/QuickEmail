@@ -2,9 +2,9 @@
 /**
  * QuickEmail
  *
- * Copyright 2011 Bob Ray
+ * Copyright 2011-2017 Bob Ray
  * @file example.php
- * @author Bob Ray <http://bobsguides.com>
+ * @author Bob Ray <https://bobsguides.com>
  * @date 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
@@ -23,7 +23,7 @@
  * @package quickemail
  */
 /**
- * @description A quick email and diagnostic package for MODx Revolution
+ * @description A quick email and diagnostic package for MODX Revolution
  * @package quickemail
  * @subpackage docs
  */

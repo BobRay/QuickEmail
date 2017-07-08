@@ -2,7 +2,7 @@
 /**
  * QuickEmail
  *
- * Copyright 2011-2016 Bob Ray
+ * Copyright 2011-2017 Bob Ray
  *
  * @author Bob Ray
  * @date 1/15/11
