@@ -41,7 +41,7 @@ $_lang['prop_quickemail.html_desc'] = 'Allow HTML in message; default: yes';
 $_lang['prop_quickemail.msgTpl_desc'] = 'If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.';
 $_lang['prop_quickemail.hideOutput_desc'] = 'Stifle all output from the snippet; ignored if debug is set; default: No';
 $_lang['prop_quickemail.success_desc'] = 'Message to display when send is successful';
-$_lang['prop_quickemail.failure_desc'] = 'Message to display when send is successful';
+$_lang['prop_quickemail.failure_desc'] = 'Message to display when send is unsuccessful';
 $_lang['prop_quickemail.errorHeader_desc'] = 'Header for mail error message';
 $_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header for smtp server error messages section';
 
