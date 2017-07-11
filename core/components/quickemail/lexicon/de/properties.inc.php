@@ -29,21 +29,21 @@
  * @language de
  */
 /* QuickEmail properties */
-$_lang['prop_quickemail.message_desc'] = 'Nachricht für den Email-Inhalt; default: `Default Message`.';
-$_lang['prop_quickemail.subject_desc'] = 'Betreff für die Email-Nachricht; default: `Default Subject`.';
-$_lang['prop_quickemail.to_desc'] = 'Address the email message will be sent to; default: emailsender System Setting.';
-$_lang['prop_quickemail.toName_desc'] = 'Value for message toName; default; emailsender System Setting.';
-$_lang['prop_quickemail.fromName_desc'] = 'Value for message fromName; default; site_name System Setting.';
-$_lang['prop_quickemail.emailSender_desc'] = 'Email address for from field of email; default: emailsender System Setting.';
-$_lang['prop_quickemail.replyTo_desc'] = 'Value for replyTo field for email; default: emailsender System Setting.';
-$_lang['prop_quickemail.debug_desc'] = 'Turn on debugging (still attempts to send email); default: no';
-$_lang['prop_quickemail.html_desc'] = 'Allow HTML in message; default: yes';
+$_lang['prop_quickemail.message_desc'] = 'Nachricht für den Email-Inhalt; standardmäßig: `Test Nachricht`.';
+$_lang['prop_quickemail.subject_desc'] = 'Betreff für die Email-Nachricht; standardmäßig: `Test Betreff`.';
+$_lang['prop_quickemail.to_desc'] = 'Empfängeradresse; standardmäßig: emailsender Systemeinstellung.';
+$_lang['prop_quickemail.toName_desc'] = 'Empfängername; standardmäßig; emailsender Systemeinstellung.';
+$_lang['prop_quickemail.fromName_desc'] = 'Absendername; standardmäßig; site_name Systemeinstellung.';
+$_lang['prop_quickemail.emailSender_desc'] = 'Email-Adresse des Absenders; standardmäßig: emailsender Systemeinstellung.';
+$_lang['prop_quickemail.replyTo_desc'] = 'Antwortadresse; standardmäßig: emailsender Systemeinstellung.';
+$_lang['prop_quickemail.debug_desc'] = 'Einschalten des Debug-Modus (versucht weiterhin die Email zu versenden); standardmäßig: Nein';
+$_lang['prop_quickemail.html_desc'] = 'Zulassen von HTML in Nachricht; standardmäßig: Ja';
 $_lang['prop_quickemail.msgTpl_desc'] = 'If sent, the specified chunk will be used for the message body and the &message parameter will be ignored.';
-$_lang['prop_quickemail.hideOutput_desc'] = 'Stifle all output from the snippet; ignored if debug is set; default: No';
+$_lang['prop_quickemail.hideOutput_desc'] = 'Stifle all output from the snippet; ignored if debug is set; standardmäßig: Nein';
 $_lang['prop_quickemail.success_desc'] = 'Mitteilung bei erfolgreicher Nachrichtenzustellung';
 $_lang['prop_quickemail.failure_desc'] = 'Mitteilung bei fehlgeschlagener Nachrichtenzustellung';
-$_lang['prop_quickemail.errorHeader_desc'] = 'Header for mail error message';
-$_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header for smtp server error messages section';
+$_lang['prop_quickemail.errorHeader_desc'] = 'Header für Nachricht-Fehlermeldung';
+$_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header für SMTP-Server Fehlermeldungsbereich';
 
 
 
