@@ -2,6 +2,8 @@
 /**
  * QuickEmail
  *
+ * German Translation by sebastian-marinescu
+ *
  * Copyright 2010-2017 Bob Ray <https://bobsguides.com>
  * 6/12/2017
  *
