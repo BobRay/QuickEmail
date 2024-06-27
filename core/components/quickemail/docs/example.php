@@ -2,7 +2,7 @@
 /**
  * QuickEmail
  *
- * Copyright 2011-2017 Bob Ray
+ * Copyright 2011-2024 Bob Ray
  * @file example.php
  * @author Bob Ray <https://bobsguides.com>
  * @created 1/15/11

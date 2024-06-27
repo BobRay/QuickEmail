@@ -4,8 +4,8 @@
  *
  * German Translation by sebastian-marinescu
  *
- * Copyright 2010-2017 Bob Ray <https://bobsguides.com>
- * 6/12/2017
+ * Copyright 2010-2024 Bob Ray <https://bobsguides.com>
+ * Created 6/12/2017
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -46,6 +46,3 @@ $_lang['prop_quickemail.success_desc'] = 'Mitteilung bei erfolgreicher Nachricht
 $_lang['prop_quickemail.failure_desc'] = 'Mitteilung bei fehlgeschlagener Nachrichtenzustellung';
 $_lang['prop_quickemail.errorHeader_desc'] = 'Header für Nachricht-Fehlermeldung';
 $_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header für SMTP-Server Fehlermeldungsbereich';
-
-
-

@@ -2,10 +2,10 @@
 /**
  * QuickEmail
  *
- * Copyright 2011-2017 Bob Ray
+ * Copyright 2011-2024 Bob Ray
  *
  * @author Bob Ray
- * @date 1/15/11
+ * @created 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free

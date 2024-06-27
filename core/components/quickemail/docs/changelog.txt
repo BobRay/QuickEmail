@@ -1,5 +1,10 @@
 Changelog for QuickEmail.
 
+QuickEmail 1.1.3-pl
+===================
+Improvements to docs
+Full compatibility with MODX 3 and PHP 8
+
 QuickEmail 1.1.1-pl
 ===================
 Fix bug with replyTo property
@@ -35,5 +40,3 @@ QuickEmail 1.0.1
 QuickEmail 1.0.0
 ================
 - Initial commit
-
-

@@ -2,8 +2,8 @@
 /**
  * QuickEmail
  *
- * Copyright 2010-2017 Bob Ray <https://bobsguides.com>
- * 1/16/2011
+ * Copyright 2010-2024 Bob Ray <https://bobsguides.com>
+ * Created: 1/16/2011
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -44,6 +44,3 @@ $_lang['prop_quickemail.success_desc'] = 'Message to display when send is succes
 $_lang['prop_quickemail.failure_desc'] = 'Message to display when send is unsuccessful';
 $_lang['prop_quickemail.errorHeader_desc'] = 'Header for mail error message';
 $_lang['prop_quickemail.smtpErrorHeader_desc'] = 'Header for smtp server error messages section';
-
-
-
