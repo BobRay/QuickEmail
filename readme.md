@@ -9,6 +9,7 @@ QuickEmail Extra for MODX Revolution
 
 **Questions about using QuickEmail** [MODX Forums](https://forums.modx.com)
 
+**Updated for MODX 3 and PHP 8**
 
 QuickEmail is a simple email snippet. It can be used to
 send email from inside any snippet or plugin, but its

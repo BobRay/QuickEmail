@@ -6,6 +6,8 @@ Copyright 2011-2017 Bob Ray
 
 A simple snippet for sending email and diagnosing email problems for MODX Revolution.
 
+[Updated for MODX 3 and PHP 8]
+
 Documentation:
 https://bobsguides.com/quickemail-snippet-tutorial.html
 
@@ -14,4 +16,3 @@ Also: Edit the QuickEmail snippet and click on the Properties tab.
 
 Bugs and Requests:
 https://github.com/BobRay/QuickEmail/issues
-
