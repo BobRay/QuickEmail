@@ -5,7 +5,7 @@
  * Copyright 2011-2017 Bob Ray
  * @file example.php
  * @author Bob Ray <https://bobsguides.com>
- * @date 1/15/11
+ * @created 1/15/11
  *
  * QuickEmail is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -35,7 +35,7 @@
  * only value returned will be 'successMessage'. If hideOutput is set to '1'
  * the return value will always be an empty string unless debug is on.
  *
- * You can also modify the value of $output before returning it and you can test
+ * You can also modify the value of $output before returning it, and you can test
  * it first, to see if it matches the value of 'successMessage'.
  *
  * All of the parameters are optional and have reasonable defaults so try
@@ -56,6 +56,6 @@ $params = array(
     'errorHeader' => '<br />Mail error:',
     'smtpErrorHeader' => '<br />SMTP server report:',
 );
-
+/** @var  $modx modX */
 $output =  $modx->runSnippet('QuickEmail',$params);
 return $output;
