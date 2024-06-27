@@ -7,7 +7,7 @@ QuickEmail Extra for MODX Revolution
 
 **Bugs and Requests:** [QuickEmail Issues](https://github.com/BobRay/QuickEmail/issues)
 
-**Questions about using QuickEmail** [MODX Forums](https://forums.modx.com)
+**Questions about using QuickEmail** [MODX Forums](https://community.modx.com)
 
 **Updated for MODX 3 and PHP 8**
 
