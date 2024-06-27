@@ -26,7 +26,6 @@
  * MODX QuickEmail Snippet
  * @description A quick email sending and diagnostic snippet for MODX Revolution
  * @package quickemail
- * @version 1.0.4
 
  * @var $modx modX
  * @var $scriptProperties array
